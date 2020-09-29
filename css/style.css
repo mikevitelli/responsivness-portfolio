@@ -38,3 +38,8 @@ body {
 p {
     margin-left: 0px;
 }
+
+justify-content-end {
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
