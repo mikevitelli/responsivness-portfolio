@@ -1,0 +1,40 @@
+
+
+
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    z-index: 1
+}
+.box-name {
+    background-color: #4aaaa5;
+    color: white;
+    margin-right: 0rem;
+}
+
+.box-name {
+    color: white;
+}
+.Heading {
+    color: #4aaaa5;
+}
+
+.navbar-brand {
+    margin-right: 0em;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+
+body {
+    background-image: url("https://i.redd.it/mkbm56b6axc21.jpg");
+    background-color: #cccccc;
+}
+
+.texty {
+    flex-wrap: wrap;
+}

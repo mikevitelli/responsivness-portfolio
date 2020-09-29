@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <title>HW 02 - Responsive Porfolio</title>
 </head>
@@ -13,10 +14,16 @@
     <nav class="navbar navbar-expand-md bg-light navbar-light">
         
         <!-- Brand -->
-        <a class="navbar-brand" href="#">Mike Vitelli</a>
+        <div class="box-name">
+            <a class="navbar-brand name" href="#">Mike Vitelli</a>
+        </div>
       
         <!-- Navbar links -->
         <div class="collapse navbar-collapse flex-row-reverse" id="collapsibleNavbar">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav" aria-controls="navbar-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
@@ -33,11 +40,24 @@
     </nav>
 
     <!-- Body -->
-    <div class="container p-3 my-3 border">
+    <div class="container">
         <div class="row">
-            <div class="col">
-                <h1>About Me</h1>
-                
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 p-3 my-3 border bg-light">
+                <table class="table">
+                    <h1 class="Heading">About Me</h1>
+                <th>
+                    <div class="col-12">
+                        <div class="pull-left">
+                            <img class="img-responsive img-thumbnail" src="assets/popeye-200px.jpg" alt="some-sailor-man">
+                        </div>    
+
+                        <div class="pull-left">
+                            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis quasi magnam maiores cum, aliquam laboriosam dolorum tempore recusandae minima quo ratione itaque, atque iure quibusdam numquam, eum quis reiciendis ea! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt provident nostrum quisquam delectus hic. Dolore aliquam nisi doloribus assumenda aliquid, eos, perspiciatis, quod quo necessitatibus non facilis inventore similique voluptatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sequi perferendis neque voluptate deserunt delectus nesciunt animi quia, illum, labore possimus ducimus consectetur harum! Ut quia accusantium debitis sed officiis!</p>
+                        
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ex inventore ipsum fugit. Nemo, minus commodi eaque alias culpa ullam. Adipisci illo nemo architecto, consequuntur libero quaerat doloribus? Repellat, commodi.</p>
+                        </div>    
+                    </div>
+                </th>      
             </div>
         </div>
     </div>
