@@ -38,3 +38,7 @@ body {
 .texty {
     flex-wrap: wrap;
 }
+
+p {
+    margin-left: 0px;
+}
