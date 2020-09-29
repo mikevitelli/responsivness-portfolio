@@ -43,3 +43,7 @@ justify-content-end {
     -ms-flex-pack: end;
     justify-content: flex-end;
 }
+
+p {
+    margin-left: 0px;
+}
