@@ -1,4 +1,4 @@
-# Responsive Web Ap
+# Responsive Web App
 ## Table of Contents
 
 * [Installation](#installation)
