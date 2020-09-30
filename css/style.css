@@ -9,6 +9,8 @@
 
 .portfolio {
     margin: 5px;
+    width: 350px;
+    height: 350px;
 }
 
 .box-name {
@@ -53,7 +55,7 @@ justify-content-end {
     }
 
   }
-  /* ipad using /
+
   @media screen and (min-width: 768px) {
     body {
       font-size: 16px
@@ -65,7 +67,7 @@ justify-content-end {
       display:block;
     }
   }
-    / desktop using */
+
   @media (min-width: 992px) {
     body {
       font-size: 20px;
