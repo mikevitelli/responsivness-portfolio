@@ -1,19 +1,22 @@
 * {
     font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
 }
 
 .container {
     z-index: 1
 }
+
+.portfolio {
+    margin: 5px;
+}
+
 .box-name {
     background-color: #4aaaa5;
     color: white;
     margin-right: 0rem;
 }
 
-.box-name {
-    color: white;
-}
 .Heading {
     color: #4aaaa5;
 }
