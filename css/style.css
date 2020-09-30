@@ -44,6 +44,31 @@ justify-content-end {
     justify-content: flex-end;
 }
 
-p {
-    margin-left: 0px;
-}
+@media screen and (min-width: 400px) {
+    body {
+      font-size: 12px;
+    }
+
+  }
+  /* ipad using /
+  @media screen and (min-width: 768px) {
+    body {
+      font-size: 16px
+    }
+    .mobile {
+      display:none;
+    }
+    .tablet {
+      display:block;
+    }
+  }
+    / desktop using */
+  @media (min-width: 992px) {
+    body {
+      font-size: 20px;
+    }
+    .tablet {display:none;
+    }
+    .desktop {display:block;
+    }
+  }
