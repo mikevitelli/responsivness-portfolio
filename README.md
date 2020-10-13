@@ -1,6 +1,6 @@
-https://github.com/mikevitelli/hw-repo-2
+https://mikevitelli.github.io/responsivness-portfolio/
 
-https://mikevitelli.github.io/hw-repo-2/
+https://github.com/mikevitelli/responsivness-portfolio
 
 # Responsive Web App
 
