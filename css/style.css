@@ -3,6 +3,10 @@
   box-sizing: border-box;
 }
 
+img {
+  width: 400px;
+}
+
 .container {
   z-index: 1;
 }
@@ -12,8 +16,7 @@
 }
 
 .box-name {
-  background-color: #4aaaa5;
-  color: white;
+  color: #4aaaa5;
   margin-right: 0rem;
 }
 
@@ -22,6 +25,7 @@
 }
 
 .navbar-brand {
+  color: #4aaaa5;
   margin-right: 0em;
 }
 
