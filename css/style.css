@@ -1,78 +1,78 @@
 * {
-    font-family: 'Times New Roman', Times, serif;
-    box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+  box-sizing: border-box;
 }
 
 .container {
-    z-index: 1
+  z-index: 1;
 }
 
 .portfolio {
-    margin: 5px;
-
+  margin: 5px;
 }
 
 .box-name {
-    background-color: #4aaaa5;
-    color: white;
-    margin-right: 0rem;
+  background-color: #4aaaa5;
+  color: white;
+  margin-right: 0rem;
 }
 
 .Heading {
-    color: #4aaaa5;
+  color: #4aaaa5;
 }
 
 .navbar-brand {
-    margin-right: 0em;
+  margin-right: 0em;
 }
 
 .navbar-light .navbar-brand {
-    color: white;
+  color: white;
 }
 
 body {
-    background-image: url("https://i.redd.it/mkbm56b6axc21.jpg");
-    background-color: #cccccc;
+  background-image: url("https://i.redd.it/mkbm56b6axc21.jpg");
+  background-color: #cccccc;
 }
 
 .texty {
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 p {
-    margin-left: 0px;
+  margin-left: 0px;
 }
 
 justify-content-end {
-    -ms-flex-pack: end;
-    justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
 }
 
 @media screen and (min-width: 400px) {
-    body {
-      font-size: 12px;
-    }
-
+  body {
+    font-size: 12px;
   }
+}
 
-  @media screen and (min-width: 768px) {
-    body {
-      font-size: 16px
-    }
-    .mobile {
-      display:none;
-    }
-    .tablet {
-      display:block;
-    }
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 16px;
   }
+  .mobile {
+    display: none;
+  }
+  .tablet {
+    display: block;
+  }
+}
 
-  @media (min-width: 992px) {
-    body {
-      font-size: 20px;
-    }
-    .tablet {display:none;
-    }
-    .desktop {display:block;
-    }
+@media (min-width: 992px) {
+  body {
+    font-size: 20px;
   }
+  .tablet {
+    display: none;
+  }
+  .desktop {
+    display: block;
+  }
+}
